@@ -251,7 +251,7 @@ progress[value]::-webkit-progress-value {
     }
       
     .data__storage__info__top-text {
-        font-size: .7rem;
+        font-size: .8rem;
         text-align: center;
         color: rgba(255, 255, 255, 0.7);
         margin-bottom: 20px;
@@ -264,7 +264,7 @@ progress[value]::-webkit-progress-value {
     }    
 
     .data__storage__info__bottom-text--space-between {
-        margin-left: 63%;
+        margin-left: 65%;
     }
     
 }
