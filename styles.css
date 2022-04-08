@@ -232,7 +232,7 @@ progress[value]::-webkit-progress-value {
     }
 
     .data__storage__balance {
-        height: 13vh;
+        height: 10vh;
         width: 50vw;
         margin-bottom: -80px;
         margin-left: auto;
@@ -242,8 +242,8 @@ progress[value]::-webkit-progress-value {
     }
 
     .data__storage__balance__text {
-        margin-top: 10px;
-        font-size: 2rem;
+        /* margin-top: 10px; */
+        font-size: 1.5rem;
     }
     
     .data__storage__balance__box--small-text {
