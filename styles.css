@@ -232,7 +232,7 @@ progress[value]::-webkit-progress-value {
     }
 
     .data__storage__balance {
-        height: 7vh;
+        height: 13vh;
         width: 50vw;
         margin-bottom: -80px;
         margin-left: auto;
