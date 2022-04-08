@@ -242,7 +242,7 @@ progress[value]::-webkit-progress-value {
     }
 
     .data__storage__balance__text {
-        margin-top: 13px;
+        margin-top: 10px;
         font-size: 1.5rem;
     }
     
