@@ -12,7 +12,7 @@
     <main>
         <div class="data">
             <div class="data__left-unit">
-                <img src="images/logo.svg" alt="" class="data__logo">
+                <img src="images/logo.svg" alt="" class="logo">
                 <div class="data__upload-methods">
                     <img src="images/icon-document.svg" alt="" class="data__upload-methods__files">
                     <img src="images/icon-folder.svg" alt="" class="data__upload-methods__files">
@@ -20,19 +20,24 @@
                 </div>
             </div>
             <div class="data__storage">
-                <div class="data__storage__balance">
-                    <p class="data__storage__balance__text">185 <span class="data__storage__balance__text--small">GB left</span></p>
-                    <div class="data__storage__balance--triangle"></div>
+                    <p class="data__storage__info__top-text">
+                        You've used <span class="data__storage__info__top-text--big">815 GB</span> of your storage
+                    </p>
+                    <div class="data__storage__progress-bar">
+                        <div class="indi">
+                            <div class="indicator"></div>
+                        </div>
+                    </div>
+                    <div class="data__storage-min-max">
+                        <p class="data__storage-min">0 GB</p>
+                        <p class="data__storage-max">1000 GB</p>
+                    </div>
+                <div class="data__storage-left">
+                    <p class="data__size-left">
+                        185 <span class="size">GB Left</span>
+                    </p>
                 </div>
-                <div class="data__storage__info">
-                    <p class="data__storage__info__top-text">You've used <span class="data__storage__info__top-text--big">815 GB</span> of your storage</p>
-                <progress value="80" max="100">80%</progress>
-                <p class="data__storage__info__bottom-text">0 GB <span class="data__storage__info__bottom-text--space-between">1000 GB</span></p>
-                </div>
-                
             </div>
-                
-            
         </div>
     </main>
 </body>
