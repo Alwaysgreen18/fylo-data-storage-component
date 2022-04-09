@@ -43,9 +43,9 @@ main {
     border-bottom-right-radius: 7px;
 }
 
-.logo {
+/* .logo {
     margin-right: 48px;
-}
+} */
 
 .data__upload-methods {
     display: flex;
@@ -219,8 +219,6 @@ main {
     }
 
 }
-<<<<<<< HEAD
-=======
 
 @media (max-width: 375px) {
 
@@ -296,4 +294,3 @@ main {
     }
     
 }
->>>>>>> 3f598cfe4c798c15b2b6dbcab38873d50a16fabf
