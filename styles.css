@@ -219,3 +219,81 @@ main {
     }
 
 }
+<<<<<<< HEAD
+=======
+
+@media (max-width: 375px) {
+
+    body {
+        background: url("images/bg-mobile.png") no-repeat left, rgb(12, 18, 44);
+    }
+    
+    .data {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .data__left-unit {
+        height: 20vh;
+        padding: 20px 120px 20px 20px;
+    }
+
+    .data__logo {
+        width: 70%;
+        margin-right: 20px;
+    }
+    
+    .data__upload-methods {
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .data__storage {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 100%;
+    }
+    .data__storage__info {
+        grid-row: 1;
+        grid-column: 1/-1;
+    }
+
+    .data__storage__balance {
+        height: 10vh;
+        width: 50vw;
+        margin-bottom: -80px;
+        margin-left: auto;
+        margin-right: auto;
+        grid-row: 2;
+        grid-column: 1/-1;
+    }
+
+    .data__storage__balance__text {
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+    
+    .data__storage__balance__text--small {
+        font-weight: 400;
+        font-size: 1rem;
+    }
+      
+    .data__storage__info__top-text {
+        font-size: .8rem;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 20px;
+    }
+
+    .data__storage__info__bottom-text {
+        color: #fff;
+        font-size: .8rem;
+        margin: 20px 0;
+    }    
+
+    .data__storage__info__bottom-text--space-between {
+        margin-left: 65%;
+    }
+    
+}
+>>>>>>> 3f598cfe4c798c15b2b6dbcab38873d50a16fabf
